@@ -1,2 +1,4 @@
+docker build -t sales_forecasting_api .
+docker run -p 8000:8000 sales_forecasting_api
 python3 app/main.py
 ngrok http 8501
